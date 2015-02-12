@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.0
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.VID_Demo.CSharp", "UnityVS.VID_Demo.CSharp.csproj", "{CE353147-751D-D14C-83F9-E412729BD855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.VID_Demo.CSharp.Plugins", "UnityVS.VID_Demo.CSharp.Plugins.csproj", "{2A64BAF8-5BC6-834E-A639-5E3476C326CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE353147-751D-D14C-83F9-E412729BD855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE353147-751D-D14C-83F9-E412729BD855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE353147-751D-D14C-83F9-E412729BD855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE353147-751D-D14C-83F9-E412729BD855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A64BAF8-5BC6-834E-A639-5E3476C326CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A64BAF8-5BC6-834E-A639-5E3476C326CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A64BAF8-5BC6-834E-A639-5E3476C326CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A64BAF8-5BC6-834E-A639-5E3476C326CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

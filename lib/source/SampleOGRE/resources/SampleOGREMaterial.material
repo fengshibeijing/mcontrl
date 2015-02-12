@@ -1,0 +1,54 @@
+material DigitalPlane
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+                               // emissive 1 1 1 1
+	                    // emissive	 1 1 1 1
+	                    ambient  0.071 0.859 0.686
+                                
+
+		}
+
+	}
+}
+
+material SphereForSampleOgre
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+                               	emissive 0 1 0 1
+                            
+
+		}
+
+	}
+}
+
+material LightRibbonTrail
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture ribbonband.png 1d
+				tex_address_mode clamp
+				filtering none
+			}
+		}
+	}
+}

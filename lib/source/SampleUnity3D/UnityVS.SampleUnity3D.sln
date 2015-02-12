@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.0
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.SampleUnity3D.CSharp", "UnityVS.SampleUnity3D.CSharp.csproj", "{BCA9BE36-C579-42BE-800B-8F83BFCF813B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.SampleUnity3D.CSharp.Plugins", "UnityVS.SampleUnity3D.CSharp.Plugins.csproj", "{82D3A6B2-6D9B-761A-F8E0-691EB8879A0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCA9BE36-C579-42BE-800B-8F83BFCF813B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA9BE36-C579-42BE-800B-8F83BFCF813B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA9BE36-C579-42BE-800B-8F83BFCF813B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA9BE36-C579-42BE-800B-8F83BFCF813B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D3A6B2-6D9B-761A-F8E0-691EB8879A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D3A6B2-6D9B-761A-F8E0-691EB8879A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D3A6B2-6D9B-761A-F8E0-691EB8879A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D3A6B2-6D9B-761A-F8E0-691EB8879A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
